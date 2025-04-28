@@ -8,7 +8,7 @@ docker load -i G:\gsout.tar
 docker run -p 9120:2022 --gpus all -it --ipc=host -v D:\gsdata:/root/contain --name gsenvnew1 gaetanlandreau/3d-gaussian-splatting /bin/bash
 
 # 2.在映射目录下clone 高斯源码
-git clone --no-recurse-submodules https://github.com/graphdeco-inria/gaussian-splatting.git
+git clone https://github.com/DocMingo/gaussNowRun.git
 
 # 3.在 高斯源码目录下新建data文件夹与内部的input文件夹
 文件目录类似于 D:\gsdata\gaussian-splatting\data\input
