@@ -13,7 +13,7 @@ git clone https://github.com/DocMingo/gaussNowRun.git
 # 3.在 高斯源码目录下新建data文件夹与内部的input文件夹
 文件目录类似于 D:\gsdata\gaussian-splatting\data\input
 在data目录下放置所需切帧的视频：D:\gsdata\gaussian-splatting\data\input.mp4
-使用工具进行处理：ffmpeg -i input.mp4 -vf "setpts=0.2*PTS" input/input_%04d.jpg
+使用工具进行处理：ffmpeg -i input.mp4 -vf "setpts=0.2\*PTS" input/input_%04d.jpg
 也可以直接在images文件夹下存入图片
 其中：setpts=0.2*PTS 前的系数越大则从视频中提取的图片越多，增加计算负载，提高重建质量
 
