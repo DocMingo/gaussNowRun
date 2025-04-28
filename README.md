@@ -23,7 +23,10 @@ docker run -p 9120:2022 --gpus all -it --ipc=host -v D:\gsdata:/root/contain --n
 --save_iterations 参数， 保存高斯场景结果
 默认情况下保存 7000 与300000 次的模型场景，在 D:\gsdata\gaussian-splatting\data\output\point_cloud\iteration_30000 下
 
-
+#
+#
+#
+#
 
 Bernhard Kerbl*, Georgios Kopanas*, Thomas Leimkühler, George Drettakis (* indicates equal contribution)<br>
 | [Webpage](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) | [Full Paper](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_high.pdf) | [Video](https://youtu.be/T_kXY43VZnk) | [Other GRAPHDECO Publications](http://www-sop.inria.fr/reves/publis/gdindex.php) | [FUNGRAPH project page](https://fungraph.inria.fr) |<br>
